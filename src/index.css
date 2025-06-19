@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@layer base{
+  html{
+     scroll-padding-top: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    @apply transition-colors duration-300;
+   @apply overflow-x-hidden scroll-smooth;
+  }
+  body{
+    @apply overflow-x-hidden min-h-screen;
+    @apply bg-white text-black dark:bg-black dark:text-white;
+  }
+}
+@theme{
+  --color-green: #10B981;
+  --color-blue: #3B82F6;
+}
+
+ 
