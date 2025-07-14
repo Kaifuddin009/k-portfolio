@@ -31,5 +31,5 @@ This is a responsive web portfolio built using modern web technologies. It inclu
 Clone the repository:
 
 ```bash
-git clone https://github.com/Kaifuddin009
+git clone https://github.com/Kaifuddin009/k-portfolio
 cd portfolio

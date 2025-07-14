@@ -21,5 +21,4 @@ const AboutMeMainText = () => {
     </div>
   )
 }
-
-export default AboutMeMainText
+export default AboutMeMainText;

@@ -14,13 +14,10 @@ const SkillsMain = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{once: false, amount: 0}}
-        
         >
-
-        <SkillsText/>
+      <SkillsText/>
         </motion.div>
       <div className='lg:block hidden sm:hidden bottom-[50px] absolute left-[50%] -translate-x-[50%]'>
-
         <AllSkill/>
       </div>
       <div className=' lg:hidden'>

@@ -61,5 +61,4 @@ const NavbarLinks = ({ open, setOpen }) => {
     </ul>
   );
 };
-
 export default NavbarLinks;

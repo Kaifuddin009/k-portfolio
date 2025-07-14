@@ -8,5 +8,4 @@ const SubSkills = () => {
     </div>
   )
 }
-
 export default SubSkills

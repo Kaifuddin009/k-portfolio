@@ -74,5 +74,4 @@ const AllExperience = () => {
     </div>
   )
 }
-
-export default AllExperience
+export default AllExperience;

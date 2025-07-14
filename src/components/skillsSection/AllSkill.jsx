@@ -41,14 +41,11 @@ const AllSkill = () => {
          whileInView="show"
           viewport={{once: false, amount: 0}}
         >
-
-          <SingleSkill key={index} text={item.skill} imgSvg={<item.icon/>}/>
+        <SingleSkill key={index} text={item.skill} imgSvg={<item.icon/>}/>
         </motion.div>
         );
       })}  
-
-    </div>
+  </div>
   )
 }
-
 export default AllSkill
