@@ -12,8 +12,7 @@ import FooterMain from './components/Footer/FooterMain';
 
 const App = () => {
   return (
-    <main className='font-display1  '>
-    
+    <main className='font-display1'>
     <NavbarMain/>
     <HeroMain/>
     <HeroGradient/>
