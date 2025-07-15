@@ -1,6 +1,4 @@
-import { useEffect,useRef } from 'react';
-import LocomotiveScroll from "locomotive-scroll";
-import "locomotive-scroll/dist/locomotive-scroll.css";
+
 import NavbarMain from './components/navbar/NavbarMain';
 import HeroMain from './components/heroSection/HeroMain';
 import HeroGradient from './components/heroSection/HeroGradient';
