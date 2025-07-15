@@ -1,10 +1,10 @@
-import ThemeToggle from "../ThemeToggle/ThemeToggle";
+import ThemeToggle from "../themetoggle/ThemeToggle";
 import NavbarLogo from "./NavbarLogo";
 import NavbarLinks from "./NavbarLinks";
 import NavbarBtn from "./NavbarBtn";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from 'react';
-import VisitorCounter from '../../FramerMotion/Visitor/visitorCounter';
+//import VisitorCounter from '../../FramerMotion/Visitor/visitorCounter';
 import LanguageSelector from '../Language/LanguageSwitcher';
 const NavbarMain = () => {
   const [menuOpen, setmenuOpen] = useState(false);

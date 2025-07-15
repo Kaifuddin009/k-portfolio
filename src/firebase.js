@@ -10,7 +10,7 @@ import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FRAPI_KEY,
   authDomain: "visitor-counter-ebb3a.firebaseapp.com",
-  projectId: "visitor-counter-ebb3a",
+  projectId: import.meta.env.VITE_PROJECT_ID,
   storageBucket: "visitor-counter-ebb3a.firebasestorage.app",
   messagingSenderId: import.meta.env.VITE_FR_MSGID,
   appId: import.meta.env.VITE_FR_APPID,
