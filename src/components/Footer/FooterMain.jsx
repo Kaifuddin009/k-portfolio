@@ -1,14 +1,16 @@
 import { Link } from "react-scroll";
+import { useTranslation } from 'react-i18next';
 
-const links =[
-    { link: "Sheikh Kaifuddin", section: "hero" },
-    {link:"About Me",   section: "about"},
-    {link:"Skills",     section: "skills"},
-    {link:"Experience", section: "experience"},
-    {link:"Projects",   section: "projects"},
-    {link:"Contact",    section: "contact"}
-  ];
 const FooterMain = () => {
+const { t } = useTranslation("navbar");
+  const links =[
+    { link: "Sheikh Kaifuddin", section: "hero" },
+    {link: t("About"),   section: "about"},
+    {link: t("Skills"),     section: "skills"},
+    {link: t("Experience"), section: "experience"},
+    {link: t("Projects"),   section: "projects"},
+    {link: t("Contact"),    section: "contact"}
+  ];
   return (
     <div className='px-4 w-full'>
         <div className='h-[1px] w-full'></div>

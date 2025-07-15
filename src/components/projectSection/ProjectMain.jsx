@@ -2,38 +2,43 @@ import ProjectText from './ProjectText';
 import SingleProject from './SingleProject';
 import {motion} from 'framer-motion';
 import { fadeIn } from '../../FramerMotion/variants';
+import { useTranslation } from 'react-i18next';
+ 
+
+const ProjectMain = () => {
+    const { t } = useTranslation("project");
+
 const projects = [
     {
-        name: "Project Name",
-        year: "Date",
+        name: t('Project'),
+        year: t('Date'),
         align: "right",
         image: "../../public/images/website-img-1.jpg",
         link: "#"
     },
     {
-        name: "Project Name",
-        year: "Date",
+        name: t("Project"),
+        year: t("Date"),
         align: "left",
         image: "../../public/images/website-img-2.webp",
         link: "#"
     },
     {
-        name: "Project Name",
-        year: "Date",
+        name: t("Project"),
+        year: t("Date"),
         align: "right",
         image: "../../public/images/website-img-3.jpg",
         link: "#"
     },
     {
-        name: "Project Name",
-        year: "Date",
+        name: t("Project"),
+        year: t("Date"),
         align: "left",
         image: "../../public/images/website-img-4.jpg",
         link: "#"
     },
-]; 
+];
 
-const ProjectMain = () => {
   return (
     <div id="projects" className="max-w-full mx-auto w-full p-3">
 
@@ -42,7 +47,6 @@ const ProjectMain = () => {
                 initial="hidden"
                 whileInView="show"
                 viewport={{once: false, amount: 0}}
-        
         >
 
         <ProjectText/>
@@ -60,5 +64,4 @@ const ProjectMain = () => {
     </div>
   )
 }
-
 export default ProjectMain

@@ -2,45 +2,49 @@ import SingleExperience from './SingleExperience';
 import { FaArrowRight } from "react-icons/fa";
 import {motion} from 'framer-motion';
 import { fadeIn } from '../../FramerMotion/variants';
+import {useTranslation} from 'react-i18next';
 
+
+const AllExperience = () => {
+  const { t } = useTranslation("experience");
+
+  
 const experiences = [
     {
-        job: "Front-End-Developer",
-        company: "Website",
+        job: t("Web Developer"),
+        company: t("Website"),
         date: "2024",
         Responsibilities:[
-            "Implementing resuable components.",
-            "Generating new futures.",
-            "Responsiveness & Better UI/UX",
-            "SEO Friendly",
+            t("Implementing resuable components."),
+            t("Generating new futures."),
+            t("Responsiveness & Better UI/UX"),
+            t("SEO Friendly"),
         ],
     },
 
     {
         job: "UI/UX",
-        company: "Protfolio",
+        company: t("PORTFOLIO"),
         date: "2024",
         Responsibilities:[
-            "3D Animation",
-            "Perform on any Devices ",
-            "Dynamic Interface",
-            
+            t("3D Animation"),
+            t("Perform on any Devices"),
+            t("Dynamic Interface"),
+
         ],
     },
 
     {
-        job: "Course Instructor",
-        company: "Students",
+        job: t("Course Instructor 2024-present"),
+        company: t("Student"),
         date: "2024-present",
         Responsibilities:[
-            "Provide Support for students.",
-            "Helping students learning web development technology",
-            "Explaining Also Java and some DSA",
+          
+            t("Helping students learning web development technology."),
+            t("Explaining Also Java and some DSA."),
         ],
     },
 ];
-
-const AllExperience = () => {
   return (
     <div className='sm:text-xl text-2xl items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 realative'>
        {experiences.map((experience, index) => {

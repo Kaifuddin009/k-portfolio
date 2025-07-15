@@ -2,9 +2,9 @@ import { useState } from 'react'
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { sendToast } from '../../utils/toaster/sendmsg';
-
+import { useTranslation } from 'react-i18next';
 const ContactForm = () => {
-
+const { t } = useTranslation("contact");
     const[name,setName] = useState("");
     const[email,setEmail] = useState("");
     const[message,setMessage] = useState("");
@@ -59,14 +59,14 @@ const ContactForm = () => {
             <input 
             name='from_name'
             type="text" 
-            placeholder='Your Name'
+            placeholder={t("Your Name")}
              className='h-12 rounded-lg border-1 border-black px-3 dark:border-white'
              value={name}
              onChange={handleName}
               />
             <input
             name='from_email'
-            type="email" placeholder='Your Email'
+            type="email" placeholder={t("Your Email")}
             className='h-12 rounded-lg border-1 border-black px-3 dark:border-white'
              value={email}
             onChange={handleEmail}/>
@@ -74,7 +74,7 @@ const ContactForm = () => {
             <textarea
             name='message'
              type="text" 
-             placeholder='Message'
+             placeholder={t("Message")}
               row="9" cols="50" 
           className='h-50 rounded-lg p-2 border-1 border-black px-3 dark:border-white'
               value={message}
@@ -101,10 +101,10 @@ const ContactForm = () => {
           d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
         ></path>
       </svg>
-      Sending...
+      {t("Sending")}...
     </span>
   ) : (
-    "Send"
+    t("Send")
   )}
       </button>
         </form>
