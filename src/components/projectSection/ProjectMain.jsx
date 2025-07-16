@@ -13,28 +13,28 @@ const projects = [
         name: t('Project'),
         year: t('Date'),
         align: "right",
-        image: "../../public/images/website-img-1.jpg",
+        image: "../../images/website-img-1.jpg",
         link: "#"
     },
     {
         name: t("Project"),
         year: t("Date"),
         align: "left",
-        image: "../../public/images/website-img-2.webp",
+        image: "../../images/website-img-2.webp",
         link: "#"
     },
     {
         name: t("Project"),
         year: t("Date"),
         align: "right",
-        image: "../../public/images/website-img-3.jpg",
+        image: "../../images/website-img-3.jpg",
         link: "#"
     },
     {
         name: t("Project"),
         year: t("Date"),
         align: "left",
-        image: "../../public/images/website-img-4.jpg",
+        image: "../../images/website-img-4.jpg",
         link: "#"
     },
 ];

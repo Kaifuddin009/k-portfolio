@@ -15,7 +15,7 @@ const HeroPic = () => {
         <motion.img 
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.3 }}
-        src="../../public/images/HexaPic.png" 
+        src="../../images/HexaPic.png" 
         alt="sheikh kaifuddin" 
         className='max-h-[450px] rounded-full w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover '
          />
