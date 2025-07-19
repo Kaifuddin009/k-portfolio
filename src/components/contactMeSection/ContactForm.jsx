@@ -35,8 +35,8 @@ const { t } = useTranslation("contact");
       await new Promise((resolve) => setTimeout(resolve, 1000))
       
           emailjs
-            .sendForm('service_qy1990v', 'template_paczbvm', form.current, {
-              publicKey: '73CbRML69u_g20fyY',
+            .sendForm(import.meta.env.VITE_EMAILJS_NAME, import.meta.env.VITE_EMAILJS_SERVICEID, form.current, {
+              publicKey: import.meta.env.VITE_EMAILJS_KEY,
             })
             
                 setName('');
