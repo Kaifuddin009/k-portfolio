@@ -10,18 +10,18 @@ const ProjectMain = () => {
 
 const projects = [
     {
-        name: t('Project'),
-        year: t('Date'),
+        name: t('To-do list'),
+        year: t('2024'),
         align: "right",
-        image: "../../images/website-img-1.jpg",
-        link: "#"
+        image: "../../images/toodo.jpg",
+        link: "https://aim-mark.onrender.com/"
     },
     {
-        name: t("Project"),
-        year: t("Date"),
+        name: t("Blog-eng"),
+        year: t("2025"),
         align: "left",
-        image: "../../images/website-img-2.webp",
-        link: "#"
+        image: "../../images/blog.png",
+        link: "https://blog-eng-delta.vercel.app/"
     },
     {
         name: t("Project"),
@@ -58,7 +58,9 @@ const projects = [
                 name={item.name} 
                 year={item.year} 
                 align={item.align} 
-                image={item.image}/>
+                image={item.image}
+                link={item.link}
+                />
             })}
         </div>
     </div>
