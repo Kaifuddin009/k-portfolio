@@ -24,3 +24,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+#PDF
+# Ignore PDFs in images folder
+/public/images/*.pdf

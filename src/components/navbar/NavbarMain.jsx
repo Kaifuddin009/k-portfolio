@@ -15,8 +15,8 @@ const NavbarMain = () => {
     <nav className='flex top-0 left-0  w-full  mx-auto px-12 z-50  fixed dark:bg-gray-900 bg-white  '>
       <div className='relative max-w-7xl flex px-2 sm:px-6 lg:px-5  py-0  justify-between w-full mx-auto items-center '>
         <NavbarLogo/>
-        
         <LanguageSelector/>
+        
         <div
          className={`${menuOpen ? "block" : "hidden"} md:flex items-center space-x-8`}>
           <NavbarLinks open={menuOpen} setOpen={setmenuOpen}/>
