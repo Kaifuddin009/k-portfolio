@@ -12,13 +12,13 @@ import contactCH from "../../locales/ch/contact.json";
 import projectCH from "../../locales/ch/project.json";
 
 //Spanish 
-import navbarES from '../../locales/es/navbar.json';
-import herosectionES from '../../locales/es/herosection.json';
-import aboutmeES from '../../locales/es/aboutme.json';
-import skillsES from '../../locales/es/skill.json';
-import experienceES from '../../locales/es/experience.json';
-import projectES from "../../locales/es/project.json";
-import contactES from "../../locales/es/contact.json";
+import navbarES from '../../locales/spanish/navbar.json'
+import herosectionES from '../../locales/spanish/herosection.json';
+import aboutmeES from '../../locales/spanish/aboutme.json'
+import skillsES from '../../locales/spanish/skill.json';
+import experienceES from '../../locales/spanish/experience.json';
+import projectES from "../../locales/spanish/project.json";
+import contactES from "../../locales/spanish/contact.json";
 
 i18n
 .use(Languagedetector)

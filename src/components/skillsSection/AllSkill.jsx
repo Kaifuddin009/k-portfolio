@@ -3,6 +3,11 @@ import { FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { FaNode } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 import SingleSkill from './SingleSkill';
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../FramerMotion/variants'
@@ -21,18 +26,38 @@ const skills = [
         icon: IoLogoJavascript,
     },
     {
-        skill: "REACTJS",
+        skill: "REACT.JS",
         icon: RiReactjsFill,
     },
     {
         skill: "TAILWIND",
         icon: RiTailwindCssFill,
     },
+    {
+        skill: "NODE.JS",
+        icon: FaNode,
+    },
+    {
+        skill: "EXPRESS.JS",
+        icon: SiExpress,
+    },
+    {
+        skill: "MONGODB",
+        icon: SiMongodb,
+    },
+    {
+        skill: "MYSQL",
+        icon: SiMysql,
+    },
+    {
+        skill: "PYTHON",
+        icon: FaPython,
+    },
 ]
 const AllSkill = () => {
   return (
     <div className='flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto'>
-      {skills.map((item,index) =>{
+      {skills.reverse().map((item,index) =>{
         return (
         <motion.div
         key={index}

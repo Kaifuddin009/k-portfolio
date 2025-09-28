@@ -10,11 +10,13 @@ import ExperienceMain from './components/experienceSection/ExperienceMain';
 import ProjectMain from './components/projectSection/ProjectMain';
 import ContactMeMain from './components/contactMeSection/ContactMeMain';
 import FooterMain from './components/Footer/FooterMain';
+import { Routes } from 'react-router-dom';
 
 const App = () => {
 
 
   return (
+    
     <main className='font-display1 m-0 p-0'>
     <NavbarMain/>
     <HeroMain/>

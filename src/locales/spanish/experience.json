@@ -1,6 +1,9 @@
 {
     "Experience": "Experiencia",
-    "I specialize in  React and Modern Javascript leveraging best practices to create scalable amd maintainable solutions. My experiences some working on diverse projects, from small bussiness websites to complex frond-end systems, always aiming for clean and expectional user experiences.": "Me especializo en React y JavaScript moderno, aprovechando las mejores prácticas para crear soluciones escalables y mantenibles. Mis experiencias incluyen trabajar en proyectos diversos, desde sitios web para pequeñas empresas hasta sistemas front-end complejos, siempre con el objetivo de lograr experiencias de usuario limpias y excepcionales.",
+    "Built a responsive To-Do List application using React, managing state efficiently with hooks.": "Creé una aplicación de lista de tareas pendientes con capacidad de respuesta utilizando React, gestionando el estado de manera eficiente con hooks.",
+    "Developed a multi-page blog platform with React and Node.js, integrating MongoDB for data storage.": "Desarrollé una plataforma de blog de varias páginas con React y Node.js, integrando MongoDB para el almacenamiento de datos.",
+    "Created small business websites with clean, maintainable front-end code and responsive design.": "Creación de sitios web para pequeñas empresas con código front-end limpio y fácil de mantener, y diseño adaptativo.",
+    "Focused on scalable solutions and user-friendly experiences across all projects.": "Centrados en soluciones escalables y experiencias fáciles de usar en todos los proyectos.",
     "YEARS":" AÑOS",
     "SINCE":"DESDE",
     "Web Developer":"Desarrollador Web",

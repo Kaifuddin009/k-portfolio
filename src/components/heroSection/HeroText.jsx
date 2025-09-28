@@ -10,20 +10,20 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{once: false, amount: 0}}
-        className='lg:text-2xl sm:text-xl lg:-3xl uppercase'>{t("Front-End Development")}
+        className='lg:text-2xl sm:text-xl lg:-3xl uppercase'>{t("Full Stack Developer")}
         </motion.h2>
         <motion.h1 
           variants={fadeIn("right",0.4)}
           initial="hidden"
           whileInView="show"
           viewport={{once: false, amount: 0}}
-        className='text-4xl sm:text-5xl md:text-[2.8rem] lg:text-6xl font-bold font-special'>Sheikh kaifuddin</motion.h1>
+        className='text-4xl sm:text-5xl md:text-[2.8rem] lg:text-6xl font-bold font-special'>{t('Sheikh Kaifuddin')}</motion.h1>
         <motion.p 
           variants={fadeIn("up",0.6)}
           initial="hidden"
           whileInView="show"
           viewport={{once: false, amount: 0}}
-        className='text-2xl sm:text-2xl m-6 w-full'>{t(`A passionate software developer & web developer`)}</motion.p>
+        className='text-2xl sm:text-2xl m-6 w-full'>{t(`A passionate Software Developer & Full Stack Developer`)}</motion.p>
     </div>
   )
 }
